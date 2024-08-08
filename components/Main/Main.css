@@ -1,0 +1,87 @@
+:root {
+    --blue2: rgb(114,190,255);
+    --white: #ffffff;
+    --title: #ffffff;
+    --link: #ffffff;
+    --highlight:rgb(136, 221, 255);
+}
+
+main{
+    color: var(--title);
+    background-image: linear-gradient(to bottom right, var(--blue2), var(--white));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    width: 100%;
+    padding-bottom: 10vh;
+}
+
+
+main section h2{
+    text-shadow: rgba(0, 0, 0, 0.309) 4px 4px 5px;
+    text-align: center;
+    border-bottom: solid var(--title) 2px;
+    padding: 40px 0 0 0;
+    width: 100%;
+}
+
+main section h3{
+margin: 25px auto 0 auto;
+width: fit-content;
+color: var(--link);
+border-bottom: dashed var(--link) 2px;
+
+}
+main img{
+    margin: 5.5vh auto;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+main section{
+    margin: 30px;
+    border-radius: 30px 0 30px 0;
+    box-shadow:  rgb(21, 18, 35) 7px 7px 40px;
+    padding: 0 14vw 7vh 14vw;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: center;
+    justify-content: center;
+
+}
+main a, main p {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+main a:hover {
+    color: var(--highlight);
+    background-color: var(--link);
+}
+
+main a {
+    padding: 2px 17px;
+    width: fit-content;
+    border-radius: 8px;
+    border: solid black 1px;
+    font-size: large;
+    color: var(--link);
+    margin: 22px auto 0 auto;
+    font-weight: 500;
+}
+
+section h2{
+    margin-top: 2vh;
+  }
+  
+
