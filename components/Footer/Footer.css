@@ -4,7 +4,7 @@ footer{
     align-content: center;
     text-align: center;
     background-color: rgb(43, 43, 43);
-    color: white;
+    color: var(--white);
 }
 footer *{
     font-weight: 200;

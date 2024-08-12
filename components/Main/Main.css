@@ -1,14 +1,7 @@
-:root {
-    --blue2: rgb(114,190,255);
-    --white: #ffffff;
-    --title: #ffffff;
-    --link: #ffffff;
-    --highlight:rgb(136, 221, 255);
-}
 
 main{
     color: var(--title);
-    background-image: linear-gradient(to bottom right, var(--blue2), var(--white));
+    background-image: linear-gradient(to bottom right, var(--blue2), var(--twhite));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,6 +75,13 @@ main a {
 
 section h2{
     margin-top: 2vh;
-  }
+}
+
+@media only screen and (max-width: 520px){
+    main img{
+        width: 80%;
+        height: auto;
+    }
+}
   
 

@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --blue2: #78b0ff;
   --white: #ffffff;
+  --twhite: #ebe7e77f;
+
+  --blue: #1c80e4;
+  --blue2: #78b0ff;
+
+  --title: #ffffff;
+
+  --link: #ffffff;
+  
+  --highlight: #7ce9ff;
+
 }
 
 *{
@@ -11,7 +21,6 @@
   box-sizing:border-box;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
-  width: 100%;
 }
 
 body{
